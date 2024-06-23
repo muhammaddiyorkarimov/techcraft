@@ -17,7 +17,7 @@ function RootLayout() {
 					<div className="header-items">
 						<div className="select-language"><span>UZ</span> / RU / ENG</div>
 						<div className="header-contact">
-							<button>Biz bilan bog'laning</button>
+							<button><Link to='/contact'>Biz bilan bog'laning</Link></button>
 						</div>
 					</div>
 				</div>
