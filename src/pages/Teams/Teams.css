@@ -1,0 +1,33 @@
+
+.about-us {
+  margin-top: 50px;
+}
+.about-us .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-us .container .main-title {
+  font-size: 48px;
+  padding-left: 20px;
+  border-left: 5px solid var(--secondary-active-color);
+  border-radius: 5px 50% 50% 5px;
+  text-align: start;
+}
+
+.about-us .container .about {
+  text-align: start;
+  display: flex;
+  align-items: center;
+}
+
+.about-us .container .about p {
+  color: var(--primary-color);
+  line-height: 30px;
+  letter-spacing: 0.7px;
+  font-size: 16px;
+}
+
+.about-us .container .about span {
+  color: var(--primary-active-color);
+}
